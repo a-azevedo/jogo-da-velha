@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jogo da Velha Remake</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">    
+</head>
+
+<body>
+    <h1>Jogo da Velha</h1>
+    <div>
+        <div id="1" class="col" onclick="selecionarQ(this.id)">-</div>
+        <div id="2" class="col" onclick="selecionarQ(this.id)">-</div>
+        <div id="3" class="col" onclick="selecionarQ(this.id)">-</div>
+    </div>
+    <div>
+        <div id="4" class="col"  onclick="selecionarQ(this.id)">-</div>
+        <div id="5" class="col" onclick="selecionarQ(this.id)">-</div>
+        <div id="6" class="col" onclick="selecionarQ(this.id)">-</div>
+    </div>
+    <div>
+        <div id="7" class="col" onclick="selecionarQ(this.id)">-</div>
+        <div id="8" class="col" onclick="selecionarQ(this.id)">-</div>
+        <div id="9" class="col" onclick="selecionarQ(this.id)">-</div>
+    </div>
+    <div class="jogador">
+        <label for="">
+            Jogador:
+        </label>
+        <label id="jogador-selecionado">
+
+        </label>
+    </div>
+    <div class="vencedor">
+        <label for="">
+            Jogador:
+        </label>
+        <label id="vencedor-selecionado">
+
+        </label>
+    </div>
+    <div class="button">
+        <button>
+            Reiniciar
+        </button>
+    </div>
+</body>
+
+<script src="js/script.js"></script>
+</html>

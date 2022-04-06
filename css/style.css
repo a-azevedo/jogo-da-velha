@@ -1,0 +1,30 @@
+body {
+    text-align: center;    
+}
+
+.col {
+    width: 50px;
+    height: 60px;
+    background-color: #eee;
+    display: inline-block;
+    font-size: 60px;
+    margin: 5px;
+    padding: 60px;
+    color: #eee;
+    cursor: pointer;
+    text-align: center;
+}
+
+.jogador,
+.vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #eee;
+    cursor: pointer;    
+}
